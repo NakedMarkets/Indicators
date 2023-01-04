@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MACD", "MACD\MACD.csproj", "{C754C411-199A-4357-8C93-BF29A0CE600F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C754C411-199A-4357-8C93-BF29A0CE600F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C754C411-199A-4357-8C93-BF29A0CE600F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C754C411-199A-4357-8C93-BF29A0CE600F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C754C411-199A-4357-8C93-BF29A0CE600F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {718143AF-1ECB-4102-9576-58042B224680}
+	EndGlobalSection
+EndGlobal
