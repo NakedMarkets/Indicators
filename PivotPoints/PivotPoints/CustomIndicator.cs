@@ -74,7 +74,7 @@ namespace PivotPoints
             SetIndexStyle(8, DrawingStyle.DRAW_LINE, Color.Gray, LineStyle.STYLE_DOT, 1);
             SetIndexLabel(8, "M2");
 
-            SetIndexBuffer(9, M2);
+            SetIndexBuffer(9, M3);
             SetIndexStyle(9, DrawingStyle.DRAW_LINE, Color.Gray, LineStyle.STYLE_DOT, 1);
             SetIndexLabel(9, "M3");
 
