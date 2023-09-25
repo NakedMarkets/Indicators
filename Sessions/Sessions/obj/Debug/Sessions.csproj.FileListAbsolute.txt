@@ -1,0 +1,8 @@
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\bin\Debug\Sessions.dll
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\bin\Debug\Sessions.pdb
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\bin\Debug\IndicatorInterfaceCSharp.dll
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\obj\Debug\Sessions.csproj.AssemblyReference.cache
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\obj\Debug\Sessions.csproj.CoreCompileInputs.cache
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\obj\Debug\Sessions.csproj.CopyComplete
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\obj\Debug\Sessions.dll
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\Sessions\Sessions\obj\Debug\Sessions.pdb
