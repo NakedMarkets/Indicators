@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -108,7 +109,7 @@ namespace Sessions
                     CreateObjects("SY" + i, SydneyColor);
             }
 
-            OnCalculate(0);
+            DrawSessions();
         }
 
         public override void OnCalculate(int index)
@@ -116,6 +117,13 @@ namespace Sessions
             if (index != 0 || Period() >= (int)Timeframe.PERIOD_D1)
                 return;
 
+
+
+            DrawSessions();
+        }
+
+        public void DrawSessions()
+        {
             DateTime CurrentTime = Time(0);
 
             for (int i = 0; i < NumberOfDays; i++)
@@ -160,21 +168,17 @@ namespace Sessions
         public void DrawObjects(DateTime CurrentDate, string ObjectName, HoursOfDay HourStart, MinutesOfDay MinuteStart, HoursOfDay HourEnd, MinutesOfDay MinuteEnd)
         {
             DateTime SessionStart, SessionEnd;
-            int SessionStartIndex, SessionEndIndex;
 
             SessionStart = new DateTime(CurrentDate.Year, CurrentDate.Month, CurrentDate.Day).AddHours((int)HourStart).AddMinutes((int)MinuteStart);
             SessionEnd = new DateTime(CurrentDate.Year, CurrentDate.Month, CurrentDate.Day).AddHours((int)HourEnd).AddMinutes((int)MinuteEnd);
 
-            SessionStartIndex = iBarShift(Symbol(), Period(), SessionStart, false);
-            SessionEndIndex = iBarShift(Symbol(), Period(), SessionEnd, false);
-
-            double HighestValue = Highest(Symbol(), Period(), Series.MODE_HIGH, SessionStartIndex - SessionEndIndex, SessionEndIndex);
-            double LowestValue = Lowest(Symbol(), Period(), Series.MODE_LOW, SessionStartIndex - SessionEndIndex, SessionEndIndex);            
+            double HighestValue = Highest(Symbol(), Period(), Series.MODE_HIGH, 1000, 0);
+            double LowestValue = Lowest(Symbol(), Period(), Series.MODE_LOW, 1000, 0);
 
             ObjectSet(ObjectName, ObjectProperty.OBJPROP_TIME1, SessionStart);
-            ObjectSet(ObjectName, ObjectProperty.OBJPROP_PRICE1, HighestValue);
+            ObjectSet(ObjectName, ObjectProperty.OBJPROP_PRICE1, HighestValue * 1.5);
             ObjectSet(ObjectName, ObjectProperty.OBJPROP_TIME2, SessionEnd);
-            ObjectSet(ObjectName, ObjectProperty.OBJPROP_PRICE2, LowestValue);            
+            ObjectSet(ObjectName, ObjectProperty.OBJPROP_PRICE2, LowestValue * 0.5);            
         }
 
         public enum HoursOfDay
