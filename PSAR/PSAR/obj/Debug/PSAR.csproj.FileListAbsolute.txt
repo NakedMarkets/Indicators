@@ -1,0 +1,8 @@
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\bin\Debug\IndicatorInterfaceCSharp.dll
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\obj\Debug\PSAR.csproj.AssemblyReference.cache
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\obj\Debug\PSAR.csproj.CoreCompileInputs.cache
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\obj\Debug\PSAR.csproj.CopyComplete
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\bin\Debug\Parabolic.dll
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\bin\Debug\Parabolic.pdb
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\obj\Debug\Parabolic.dll
+E:\Backups\Backup-NakedMarkets\MigrationAllIndicators\PSAR\PSAR\obj\Debug\Parabolic.pdb
