@@ -2,7 +2,7 @@
 
 This repository contains the C# source code of all indicators included in NakedMarkets software (www.naked-markets.com).
 
-It can be useful for developers who want to design their own indicators with the NakedMarkets Indicator API (www.naked-markets.com/Wiki/Indicators_API).
+It can be useful for developers who want to design their own indicators with the NakedMarkets Indicator API (https://www.naked-markets.com/Wiki/index.php/Indicators_API).
 
 Each folder contains the Visual studio SLN project file, the C# source code file (CustomIndicator.cs) and the generated DLL file.
 
