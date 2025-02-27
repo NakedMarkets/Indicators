@@ -1,6 +1,6 @@
 # Indicators
 
-This repository contains the C# source code of all indicators included in NakedMarkets software (www.naked-markets.com).
+This repository contains the C# source code of all indicators included in NakedMarkets software Desktop application (www.naked-markets.com).
 
 It can be useful for developers who want to design their own indicators with the NakedMarkets Indicator API (https://www.naked-markets.com/Wiki/index.php/Indicators_API).
 
